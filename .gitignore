@@ -1,0 +1,37 @@
+﻿# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+package-lock.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+*.log
+
+# Env
+.env
+.env.local
+
+# Large media files (use CDN or Git LFS instead)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mov
+*.webp
+
+# Backup files
+*.bak
+*.backup
+*~
